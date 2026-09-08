@@ -2,6 +2,7 @@ import re
 from functools import reduce
 
 #   TOURNEYMANAGER - Sistema de Gestion de Torneos
+#
 # Matrices principales (listas bidimensionales):
 #
 #   jugadores[i] = [codigo, nombre, gamertag, email, codigo_equipo]
@@ -13,8 +14,7 @@ from functools import reduce
 #
 #   equipos[i] = [codigo, nombre]
 #     [0] codigo -> EQ-XXX
-#     [1] nombre -> nombre del equipo
-#
+#     [1] nombre -> nombre del equipo 
 #   partidas[i] = [codigo_eq1, codigo_eq2, ganador, fase]
 #     [0] codigo_eq1 -> equipo local
 #     [1] codigo_eq2 -> equipo visitante
